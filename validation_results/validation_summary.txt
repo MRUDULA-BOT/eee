@@ -1,0 +1,210 @@
+SOLAR DATA MERGE VALIDATION SUMMARY
+==================================
+
+BASIC INFORMATION
+Total rows: 2103810
+Date range: 2015-01-01 00:00:00 to 2018-12-31 23:59:00
+Columns: TIMESTAMP, Pyra1_Wm2_Avg, Pyra2_Wm2_Avg, RECORD, CR1000Temp_C_Avg, DoorOpen_Min, RefCell1_Wm2_Avg, AmbTemp_C_Avg, InvVDVoltage_V_Avg, InvVa_Avg, InvVb_Avg, InvVc_Avg, InvIa_Avg, InvIb_Avg, InvIc_Avg, InvVDCin_Avg, InvIDCin_Avg, InvFreq_Avg, InvPAC_kW_Avg, InvEtot_kWh_Max, InvVPVin_Avg, InvPDC_kW_Avg, InvOpStatus_Avg, InvMainFault_Max, InvDriveFault_Max, InvVoltageFault_Max, InvGridFault_Max, InvTempFault_Max, InvSystemFault_Max, InvSystemWarn_Max, InvPVMStatus_Max, SEWSAmbientTemp_C_Avg, SEWSModuleTemp_C_Avg, SEWSPOAIrrad_Wm2_Avg, PwrMtrIa_Avg, PwrMtrIb_Avg, PwrMtrIc_Avg, PwrMtrFreq_Avg, PwrMtrFreqMin_Min, PwrMtrFreqMax_Max, PwrMtrPhaseRev_Avg, PwrMtrVa_Avg, PwrMtrVb_Avg, PwrMtrVc_Avg, PwrMtrP_kW_Avg, PwrMtrP_kVAR_Avg, PwrMtrP_kVA_Avg, PwrMtrEdel_kWh_Max, PwrMtrErec_kWh_Max, PwrMtrEdel_kVARh_Max, PwrMtrErec_kVARh_Max, PwrMtrPF_Avg, PwrMtrVaTHDMax_Max, PwrMtrVbTHDMax_Max, PwrMtrVcTHDMax_Max, ShuntCurrent_A_Avg_1, ShuntCurrent_A_Avg_2, ShuntCurrent_A_Avg_3, ShuntCurrent_A_Avg_4, ShuntCurrent_A_Avg_5, ShuntCurrent_A_Avg_6, ShuntCurrent_A_Avg_7, ShuntPDC_kW_Avg_1, ShuntPDC_kW_Avg_2, ShuntPDC_kW_Avg_3, ShuntPDC_kW_Avg_4, ShuntPDC_kW_Avg_5, ShuntPDC_kW_Avg_6, ShuntPDC_kW_Avg_7, ShuntEtot_kWh_Max_1, ShuntEtot_kWh_Max_2, ShuntEtot_kWh_Max_3, ShuntEtot_kWh_Max_4, ShuntEtot_kWh_Max_5, ShuntEtot_kWh_Max_6, ShuntEtot_kWh_Max_7, WindSpeedAve_ms, WindDirAve_deg, WindDirStdDev_deg, WindSpeed_ms_Max, WindRef_V_Min, WindHeatStateID_Avg, WindValid_Avg, Battery_V_Min, Battery_A_Avg, Load_A_Avg, ChgState_Min, ChgSource_Min, CkBatt_Max, Qloss_Ah_Max, RTD_C_Avg_1, RTD_C_Avg_2, RTD_C_Avg_3, RTD_C_Avg_4, RTD_C_Avg_5, RTD_C_Avg_6, RTD_C_Avg_7, RTD_C_Avg_8, RTD_C_Avg_9, RTD_C_Avg_10, timestamp, source_file, latitude, longitude, number, step, surface, valid_time, u10, v10, d2m, t2m, sp, hcc, lcc, mcc, tcc
+
+TEMPORAL VALIDATION
+Estimated data resolution: 60.0 seconds
+Duplicate timestamps: 0
+Large time gaps detected: 9
+
+SPATIAL VALIDATION
+Latitude range: [np.float64(39.25), np.float64(39.25)]
+Longitude range: [np.float64(-77.15), np.float64(-77.15)]
+Unique coordinate points: 2
+
+PHYSICAL VALIDATION
+Identified PV columns: InvPAC_kW_Avg, InvEtot_kWh_Max, InvPDC_kW_Avg, InvSystemWarn_Max, PwrMtrP_kW_Avg, PwrMtrEdel_kWh_Max, PwrMtrErec_kWh_Max, ShuntPDC_kW_Avg_1, ShuntPDC_kW_Avg_2, ShuntPDC_kW_Avg_3, ShuntPDC_kW_Avg_4, ShuntPDC_kW_Avg_5, ShuntPDC_kW_Avg_6, ShuntPDC_kW_Avg_7, ShuntEtot_kWh_Max_1, ShuntEtot_kWh_Max_2, ShuntEtot_kWh_Max_3, ShuntEtot_kWh_Max_4, ShuntEtot_kWh_Max_5, ShuntEtot_kWh_Max_6, ShuntEtot_kWh_Max_7
+Identified radiation columns: SEWSPOAIrrad_Wm2_Avg
+Identified temperature columns: CR1000Temp_C_Avg, AmbTemp_C_Avg, InvTempFault_Max, SEWSAmbientTemp_C_Avg, SEWSModuleTemp_C_Avg
+Average night power: -51.648626952190135
+Average night radiation: 2.814915142197527
+DATA QUALITY
+Columns with missing values:
+  - Pyra1_Wm2_Avg: 9673 missing values (0.46%)
+  - Pyra2_Wm2_Avg: 9649 missing values (0.46%)
+  - RECORD: 9588 missing values (0.46%)
+  - CR1000Temp_C_Avg: 9622 missing values (0.46%)
+  - DoorOpen_Min: 9622 missing values (0.46%)
+  - RefCell1_Wm2_Avg: 9622 missing values (0.46%)
+  - AmbTemp_C_Avg: 9622 missing values (0.46%)
+  - InvVDVoltage_V_Avg: 9622 missing values (0.46%)
+  - InvVa_Avg: 128370 missing values (6.10%)
+  - InvVb_Avg: 128370 missing values (6.10%)
+  - InvVc_Avg: 128370 missing values (6.10%)
+  - InvIa_Avg: 128370 missing values (6.10%)
+  - InvIb_Avg: 128370 missing values (6.10%)
+  - InvIc_Avg: 128370 missing values (6.10%)
+  - InvVDCin_Avg: 128370 missing values (6.10%)
+  - InvIDCin_Avg: 128370 missing values (6.10%)
+  - InvFreq_Avg: 128370 missing values (6.10%)
+  - InvPAC_kW_Avg: 128370 missing values (6.10%)
+  - InvEtot_kWh_Max: 9622 missing values (0.46%)
+  - InvVPVin_Avg: 128370 missing values (6.10%)
+  - InvPDC_kW_Avg: 128370 missing values (6.10%)
+  - InvOpStatus_Avg: 128370 missing values (6.10%)
+  - InvMainFault_Max: 9622 missing values (0.46%)
+  - InvDriveFault_Max: 9622 missing values (0.46%)
+  - InvVoltageFault_Max: 9622 missing values (0.46%)
+  - InvGridFault_Max: 9622 missing values (0.46%)
+  - InvTempFault_Max: 9622 missing values (0.46%)
+  - InvSystemFault_Max: 9622 missing values (0.46%)
+  - InvSystemWarn_Max: 9622 missing values (0.46%)
+  - InvPVMStatus_Max: 9622 missing values (0.46%)
+  - SEWSAmbientTemp_C_Avg: 9622 missing values (0.46%)
+  - SEWSModuleTemp_C_Avg: 9622 missing values (0.46%)
+  - SEWSPOAIrrad_Wm2_Avg: 9622 missing values (0.46%)
+  - PwrMtrIa_Avg: 9622 missing values (0.46%)
+  - PwrMtrIb_Avg: 9622 missing values (0.46%)
+  - PwrMtrIc_Avg: 9622 missing values (0.46%)
+  - PwrMtrFreq_Avg: 9622 missing values (0.46%)
+  - PwrMtrFreqMin_Min: 9622 missing values (0.46%)
+  - PwrMtrFreqMax_Max: 9622 missing values (0.46%)
+  - PwrMtrPhaseRev_Avg: 9622 missing values (0.46%)
+  - PwrMtrVa_Avg: 9622 missing values (0.46%)
+  - PwrMtrVb_Avg: 9622 missing values (0.46%)
+  - PwrMtrVc_Avg: 9622 missing values (0.46%)
+  - PwrMtrP_kW_Avg: 9622 missing values (0.46%)
+  - PwrMtrP_kVAR_Avg: 9622 missing values (0.46%)
+  - PwrMtrP_kVA_Avg: 9622 missing values (0.46%)
+  - PwrMtrEdel_kWh_Max: 9622 missing values (0.46%)
+  - PwrMtrErec_kWh_Max: 9622 missing values (0.46%)
+  - PwrMtrEdel_kVARh_Max: 9622 missing values (0.46%)
+  - PwrMtrErec_kVARh_Max: 9622 missing values (0.46%)
+  - PwrMtrPF_Avg: 9622 missing values (0.46%)
+  - PwrMtrVaTHDMax_Max: 9622 missing values (0.46%)
+  - PwrMtrVbTHDMax_Max: 9622 missing values (0.46%)
+  - PwrMtrVcTHDMax_Max: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_1: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_2: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_3: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_4: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_5: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_6: 9622 missing values (0.46%)
+  - ShuntCurrent_A_Avg_7: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_1: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_2: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_3: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_4: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_5: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_6: 9622 missing values (0.46%)
+  - ShuntPDC_kW_Avg_7: 9622 missing values (0.46%)
+  - ShuntEtot_kWh_Max_1: 9588 missing values (0.46%)
+  - ShuntEtot_kWh_Max_2: 9588 missing values (0.46%)
+  - ShuntEtot_kWh_Max_3: 9588 missing values (0.46%)
+  - ShuntEtot_kWh_Max_4: 9588 missing values (0.46%)
+  - ShuntEtot_kWh_Max_5: 9588 missing values (0.46%)
+  - ShuntEtot_kWh_Max_6: 9588 missing values (0.46%)
+  - ShuntEtot_kWh_Max_7: 9588 missing values (0.46%)
+  - WindSpeedAve_ms: 65776 missing values (3.13%)
+  - WindDirAve_deg: 9622 missing values (0.46%)
+  - WindDirStdDev_deg: 9622 missing values (0.46%)
+  - WindSpeed_ms_Max: 65776 missing values (3.13%)
+  - WindRef_V_Min: 103593 missing values (4.92%)
+  - WindHeatStateID_Avg: 9622 missing values (0.46%)
+  - WindValid_Avg: 9622 missing values (0.46%)
+  - Battery_V_Min: 9626 missing values (0.46%)
+  - Battery_A_Avg: 9622 missing values (0.46%)
+  - Load_A_Avg: 9622 missing values (0.46%)
+  - ChgState_Min: 9622 missing values (0.46%)
+  - ChgSource_Min: 9622 missing values (0.46%)
+  - CkBatt_Max: 9622 missing values (0.46%)
+  - Qloss_Ah_Max: 9622 missing values (0.46%)
+  - RTD_C_Avg_1: 30963 missing values (1.47%)
+  - RTD_C_Avg_2: 25985 missing values (1.24%)
+  - RTD_C_Avg_3: 24542 missing values (1.17%)
+  - RTD_C_Avg_4: 31148 missing values (1.48%)
+  - RTD_C_Avg_5: 31951 missing values (1.52%)
+  - RTD_C_Avg_6: 31359 missing values (1.49%)
+  - RTD_C_Avg_7: 31147 missing values (1.48%)
+  - RTD_C_Avg_8: 31155 missing values (1.48%)
+  - RTD_C_Avg_9: 39875 missing values (1.90%)
+  - RTD_C_Avg_10: 19624 missing values (0.93%)
+  - latitude: 30 missing values (0.00%)
+  - longitude: 30 missing values (0.00%)
+  - number: 30 missing values (0.00%)
+  - step: 30 missing values (0.00%)
+  - surface: 30 missing values (0.00%)
+  - valid_time: 30 missing values (0.00%)
+  - u10: 30 missing values (0.00%)
+  - v10: 30 missing values (0.00%)
+  - d2m: 30 missing values (0.00%)
+  - t2m: 30 missing values (0.00%)
+  - sp: 30 missing values (0.00%)
+  - hcc: 30 missing values (0.00%)
+  - lcc: 30 missing values (0.00%)
+  - mcc: 30 missing values (0.00%)
+  - tcc: 30 missing values (0.00%)
+  - time_diff: 1 missing values (0.00%)
+
+RECOMMENDATIONS
+1. Found 9 large gaps in time series data. Consider checking for missing data periods.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+📌 Attempting to load data...
+
+
+✅ File loaded successfully! First 5 rows:
+
+                   TIMESTAMP  Pyra1_Wm2_Avg  Pyra2_Wm2_Avg    RECORD  ...  hcc  lcc  mcc  tcc
+0  2015-01-01 00:00:00-05:00     -10.407752      -4.393416  171320.0  ...  0.0  0.0  0.0  0.0
+1  2015-01-01 00:01:00-05:00      -9.945186      -4.393416  171321.0  ...  0.0  0.0  0.0  0.0
+2  2015-01-01 00:02:00-05:00      -9.713902      -4.393416  171322.0  ...  0.0  0.0  0.0  0.0
+3  2015-01-01 00:03:00-05:00      -9.713902      -4.393416  171323.0  ...  0.0  0.0  0.0  0.0
+4  2015-01-01 00:04:00-05:00      -9.713902      -4.393416  171324.0  ...  0.0  0.0  0.0  0.0
+
+[5 rows x 117 columns] 
+
+
+📌 Available columns in dataset:
+ ['TIMESTAMP', 'Pyra1_Wm2_Avg', 'Pyra2_Wm2_Avg', 'RECORD', 'CR1000Temp_C_Avg', 'DoorOpen_Min', 'RefCell1_Wm2_Avg', 'AmbTemp_C_Avg', 'InvVDVoltage_V_Avg', 'InvVa_Avg', 'InvVb_Avg', 'InvVc_Avg', 'InvIa_Avg', 'InvIb_Avg', 'InvIc_Avg', 'InvVDCin_Avg', 'InvIDCin_Avg', 'InvFreq_Avg', 'InvPAC_kW_Avg', 'InvEtot_kWh_Max', 'InvVPVin_Avg', 'InvPDC_kW_Avg', 'InvOpStatus_Avg', 'InvMainFault_Max', 'InvDriveFault_Max', 'InvVoltageFault_Max', 'InvGridFault_Max', 'InvTempFault_Max', 'InvSystemFault_Max', 'InvSystemWarn_Max', 'InvPVMStatus_Max', 'SEWSAmbientTemp_C_Avg', 'SEWSModuleTemp_C_Avg', 'SEWSPOAIrrad_Wm2_Avg', 'PwrMtrIa_Avg', 'PwrMtrIb_Avg', 'PwrMtrIc_Avg', 'PwrMtrFreq_Avg', 'PwrMtrFreqMin_Min', 'PwrMtrFreqMax_Max', 'PwrMtrPhaseRev_Avg', 'PwrMtrVa_Avg', 'PwrMtrVb_Avg', 'PwrMtrVc_Avg', 'PwrMtrP_kW_Avg', 'PwrMtrP_kVAR_Avg', 'PwrMtrP_kVA_Avg', 'PwrMtrEdel_kWh_Max', 'PwrMtrErec_kWh_Max', 'PwrMtrEdel_kVARh_Max', 'PwrMtrErec_kVARh_Max', 'PwrMtrPF_Avg', 'PwrMtrVaTHDMax_Max', 'PwrMtrVbTHDMax_Max', 'PwrMtrVcTHDMax_Max', 'ShuntCurrent_A_Avg_1', 'ShuntCurrent_A_Avg_2', 'ShuntCurrent_A_Avg_3', 'ShuntCurrent_A_Avg_4', 'ShuntCurrent_A_Avg_5', 'ShuntCurrent_A_Avg_6', 'ShuntCurrent_A_Avg_7', 'ShuntPDC_kW_Avg_1', 'ShuntPDC_kW_Avg_2', 'ShuntPDC_kW_Avg_3', 'ShuntPDC_kW_Avg_4', 'ShuntPDC_kW_Avg_5', 'ShuntPDC_kW_Avg_6', 'ShuntPDC_kW_Avg_7', 'ShuntEtot_kWh_Max_1', 'ShuntEtot_kWh_Max_2', 'ShuntEtot_kWh_Max_3', 'ShuntEtot_kWh_Max_4', 'ShuntEtot_kWh_Max_5', 'ShuntEtot_kWh_Max_6', 'ShuntEtot_kWh_Max_7', 'WindSpeedAve_ms', 'WindDirAve_deg', 'WindDirStdDev_deg', 'WindSpeed_ms_Max', 'WindRef_V_Min', 'WindHeatStateID_Avg', 'WindValid_Avg', 'Battery_V_Min', 'Battery_A_Avg', 'Load_A_Avg', 'ChgState_Min', 'ChgSource_Min', 'CkBatt_Max', 'Qloss_Ah_Max', 'RTD_C_Avg_1', 'RTD_C_Avg_2', 'RTD_C_Avg_3', 'RTD_C_Avg_4', 'RTD_C_Avg_5', 'RTD_C_Avg_6', 'RTD_C_Avg_7', 'RTD_C_Avg_8', 'RTD_C_Avg_9', 'RTD_C_Avg_10', 'timestamp', 'source_file', 'latitude', 'longitude', 'number', 'step', 'surface', 'valid_time', 'u10', 'v10', 'd2m', 't2m', 'sp', 'hcc', 'lcc', 'mcc', 'tcc']
+
+
+📊 Time gap analysis completed!
+
+
+🔍 **Largest gap detected:** 9.00 minutes
+
+⏳ **Occurred at:**
+          timestamp  time_diff
+1827335 2018-06-23        9.0
+
+
+📊 **Number of large gaps (>30 min):** 0
+
+
+✅ No significant gaps detected!
+
+
+⚠️ WARNING: No inverter power column found. Skipping power analysis.
+
+
+🌙 **Nighttime data extracted. Entries:** 1139550
+
+
+⚠️ WARNING: No solar radiation column found. Skipping radiation analysis.
+
+
+📌 **Missing Data Percentage per Column:**
+ Pyra1_Wm2_Avg       0.459785
+Pyra2_Wm2_Avg       0.458644
+RECORD              0.455745
+CR1000Temp_C_Avg    0.457361
+DoorOpen_Min        0.457361
+                      ...
+hcc                 0.001426
+lcc                 0.001426
+mcc                 0.001426
+tcc                 0.001426
+time_diff           0.000048
+Length: 115, dtype: float64
+
+
+⚠️ **Missing data found. Visualizing...
+
+PS C:\Users\Mrudula\OneDrive\Desktop\EEE> 
